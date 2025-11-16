@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
               fish.classList.add('fish');
               
               // Chọn ngẫu nhiên loại cá
-              const fishTypes = ['diver1', 'diver2', 'diver3', 'faintSchool', 'goldfishSchool', 'shark', 'turtle'];
+              const fishTypes = ['diver1', 'diver2', 'diver3', 'faintSchool', 'goldFishSchool', 'shark', 'turtle'];
               const randomFish = fishTypes[Math.floor(Math.random() * fishTypes.length)];
               
               // Tạo hình ảnh cá
